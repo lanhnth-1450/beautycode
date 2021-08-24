@@ -1,10 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "beautycode/version"
-
-module Beautycode
-  class Error < StandardError; end
-
+class Beautycode
   def self.process
     current_project = `pwd`
     current_project = current_project.gsub(/\n/,"")
