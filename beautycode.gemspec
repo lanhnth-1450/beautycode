@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "write beautycode"
   spec.description   = "auto beautycode with 1 command line"
-  spec.homepage      = "https://github.com/lanhnth-1450"
+  spec.homepage      = "https://github.com/lanhnth-1450/beautycode/"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/lanhnth-1450"
+  spec.metadata["source_code_uri"] = "https://github.com/lanhnth-1450/beautycode/"
   spec.metadata["changelog_uri"] = "https://rubygems.org/"
 
   # Specify which files should be added to the gem when it is released.
